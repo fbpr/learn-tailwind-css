@@ -1,0 +1,17 @@
+{
+  "name": "tw-web-2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "vite",
+    "tw:build": "tailwindcss -i ./style.css -o ./dist/main.css",
+    "dev": "vite build"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.27",
+    "tailwindcss": "^3.3.3",
+    "vite": "^4.4.6"
+  }
+}
