@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" class="dark" id="html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Tailwind CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/input.css">
+</head>
+<body class="bg-blue-500">
+    <!-- modified by config.js -->
+    <div class="container bg-red-200 shadow mt-3 mx-auto">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis nam doloribus totam, reprehenderit corrupti temporibus aperiam perferendis laborum aliquam eligendi cum unde, odit ullam. Incidunt animi modi vitae officia magnam.</p>
+    </div>
+<!-- <body class="bg-gradient-to-r from-red-400 via-purple-500 to-pink-600"> -->
+<!-- <body class="bg-blue-100 bg-no-repeat bg-cover" style="background-image: url(bg.jpg);"> -->
+<!-- <body class="bg-[#ff00ff] mt-[100px]"> -->
+<!-- <body class="bg-blue-100 dark:bg-gray-800 sm:bg-red-200 dark:sm:bg-red-800">     -->
+<!-- <body class="bg-blue-100 sm:bg-blue-300 md:bg-blue-500 lg:bg-green-300 xl:bg-green-500 2xl:bg-green-700"> -->
+    <!-- 
+        sm  (640px)
+        md  (768px)
+        lg  (1024px)
+        xl  (1280px)
+        2xl (1536px)
+
+     -->
+    <!-- <h1 class="bg-red-500 text-white">Hello Tailwind CSS</h1>
+    <h2>FBPR</h2>
+
+    <h2 class="title">FE</h2> -->
+    <!-- dark:text-blue-200 -->
+    <h1 class="text-5xl text-[#16A085] m-5 mt-6 mb-8 ml-4 mr-5">Hello World</h1>
+    <h1 class="bg-red-300 inline-block p-5 pt-6 pb-8 pl-4 pr -5">Hello</h1>
+    <h2 class="font-lobster tracking-tighter">Hello</h2>
+    <h4 class="tracking-widest">Hello</h4>
+    <h1 class="text-red-300 line-through">Hello</h1>
+    <h1 class="text-red-300 overline">Hello</h1>
+    <ul class="pl-7 list-decimal">
+        <li class="uppercase">Home</li>
+        <li>Home</li>
+        <li>Home</li>
+    </ul>
+
+    <h3 class="text-amber-800 text-center font-bold text-[50px] my-8 font-lobster">Learning Tailwind is Fun</h3>
+    <!-- Hover -->
+    <button id="btn" class="bg-green-400 py-2 px-5 rounded-full text-white font-semibold mx-auto my-3 block hover:bg-green-400 hover:text-black hover:transition-colors" type="button">Light/Dark</button>
+    <button class="bg-blue-400 py-2 px-5 rounded-full text-white font-semibold mx-auto my-3 block hover:bg-green-400 hover:text-black hover:transition-colors" type="button">Contact Us</button>
+    <button class="btn" type="button">Contact Us</button>
+    <button class="btn" type="button">Contact Us</button>
+    <!-- Focus -->
+    <!-- <button class="bg-blue-400 py-2 px-5 rounded-full text-white font-semibold mx-auto my-3 block hover:bg-green-400 hover:text-black hover:transition-colors focus:ring-4 focus:ring-green-400 focus:outline-none" type="button">Contact Us</button>
+
+    <button class="bg-blue-400 py-2 px-5 rounded-full text-white font-semibold mx-auto my-3 block hover:bg-green-400 hover:text-black hover:transition-colors focus:ring-4 focus:ring-green-400 focus:outline-none" type="button">Contact Us</button> -->
+    <!-- <div class="bg-red-500 w-20 h-20"></div> -->
+    
+    <!-- <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, <span class="after:absolute after:bg-blue-200 after:w-full after:h-full after:left-0 after:top-0 relative"><span class="relative z-10">Voluptates</span></span> dolorum similique nemo quis doloribus velit.</p>
+
+    <ul>
+        <li class="first:border-4 first:border-blue-500">Home</li>
+        <li class="border-4 border-green-500">Home</li>
+        <li>Home</li>
+        <li>Home</li>
+        <li>Home</li>
+        <li class="border-4 border-violet-500">Home</li>
+        <li class="last:border-4 last:border-red-500">Home</li>
+    </ul>
+
+    <ul>
+        <li class="odd:bg-violet-300 even:bg-red-300">HTML</li>
+        <li class="odd:bg-violet-300 even:bg-red-300">CSS</li>
+        <li class="odd:bg-violet-300 even:bg-red-300">JavaScript</li>
+    </ul> -->
+    <div class="flex flex-row justify-between">
+        <div class="bg-white basis-1/4 h-10 my-[5px] rounded shadow-black shadow-xl"></div>
+
+        <div class="bg-white basis-1/4 h-10 my-[5px] rounded shadow-black shadow-inner"></div>
+    
+        <div class="bg-white basis-1/4 h-10 my-[5px] rounded shadow-black shadow-inner"></div>
+    </div>
+    <div class="grid grid-cols-3 mt-5 gap-3 bg-red-200 p-4 h-56 content-center">
+        <div class="bg-white basis-1/4 h-10 my-[5px] rounded shadow-black shadow-xl"></div>
+
+        <div class="bg-white basis-1/4 h-10 my-[5px] rounded shadow-black shadow-inner"></div>
+    
+        <div class="bg-white basis-1/4 h-10 my-[5px] rounded shadow-black shadow-inner"></div>
+
+        <div class="bg-white basis-1/4 h-10 my-[5px] rounded shadow-black shadow-xl"></div>
+
+        <div class="bg-white basis-1/4 h-10 my-[5px] rounded shadow-black shadow-inner"></div>
+    
+        <div class="bg-white basis-1/4 h-10 my-[5px] rounded shadow-black shadow-inner"></div>
+    </div>
+
+    <!-- <div class="bg-blue-600 w-10 h-10 mx-auto my-[50px] rounded-full border-pink-700 border-4"></div> -->
+
+    <!-- <div class="bg-blue-600 w-10 h-10 mx-auto my-[50px] rounded-full border-pink-700 border-4 border-dashed"></div>
+
+    <div class="bg-blue-600 w-10 h-10 mx-auto my-[50px] rounded ring-4 ring-offset-2 ring-orange-400"></div> -->
+    <script src="app.js"></script>
+</body>
+</html>
